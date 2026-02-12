@@ -1,0 +1,27 @@
+{
+  "name": "daoist-mysticism-mall-frontend",
+  "version": "1.0.0",
+  "description": "道家玄学商城系统前端",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest --run"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "vuex": "^4.1.0",
+    "element-plus": "^2.3.0",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.0",
+    "vite": "^4.3.0",
+    "vitest": "^0.32.0",
+    "@vue/test-utils": "^2.3.0",
+    "sass": "^1.62.0"
+  }
+}
