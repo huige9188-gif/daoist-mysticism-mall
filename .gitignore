@@ -1,0 +1,46 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Backend (PHP/ThinkPHP)
+backend/vendor/
+backend/runtime/
+backend/.env
+backend/composer.lock
+backend/.phpunit.result.cache
+
+# Frontend (Vue.js)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Uploads
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Cache
+*.cache
